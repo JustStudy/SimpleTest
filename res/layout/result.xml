@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:background="#316dd8">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Тест пройден!"
+            android:id="@+id/tvthanks" android:layout_gravity="center" android:textColor="#1cff00"
+            android:textSize="18dp"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/masivresult" android:textColor="#000000" android:textStyle="italic"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/tvresult" android:layout_marginTop="10dp" android:textSize="14dp"
+            android:textColor="#ff0000" android:textStyle="bold"/>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="К списку тестов"
+                android:id="@+id/buttonStart" android:layout_marginTop="10dp" android:layout_weight="1"
+                android:textStyle="italic"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Выход"
+                android:id="@+id/Exit" android:layout_marginTop="10dp" android:layout_weight="1"
+                android:textStyle="italic"/>
+    </LinearLayout>
+</LinearLayout>

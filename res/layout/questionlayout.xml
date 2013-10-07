@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Text"
+                android:id="@+id/questionNumber" android:gravity="center" android:layout_gravity="center"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Text"
+                android:id="@+id/questionName" android:layout_marginLeft="20dp" android:layout_marginTop="5dp"
+                android:textColor="#ff2b1c"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+        <RadioGroup
+                android:id="@+id/radiogroup"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" android:layout_marginTop="5dp">
+            <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="New RadioButton"
+                    android:id="@+id/variantA" android:checked="true" android:textColor="#34ff0f"
+                    android:textSize="15dp"/>
+            <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="New RadioButton"
+                    android:id="@+id/variantB" android:textColor="#0effee" android:textSize="15dp"/>
+            <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="New RadioButton"
+                    android:id="@+id/variantC" android:textColor="#ffe217" android:textSize="15dp"/>
+        </RadioGroup>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Предыдущий вопрос"
+                android:id="@+id/buttonPref" android:textSize="10dp"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Следующий вопрос"
+                android:id="@+id/buttonNextQuestion" android:textSize="10dp"/>
+    </LinearLayout>
+</LinearLayout>

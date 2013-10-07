@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pref"
+            android:layout_marginTop="20dp"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Пройти тест: Большие ли у вас глаза?"
+            android:id="@+id/BtnBigEyes" android:clickable="true" android:textColor="#ff2520"
+            android:layout_marginTop="10dp" android:textStyle="bold|italic"
+            android:linksClickable="false"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Пройти тест: Ваши нервы канаты или нити?!"
+            android:id="@+id/BtnYourNerve" android:textColor="#ff20cc" android:clickable="true"
+            android:layout_marginTop="10dp" android:textStyle="bold"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Выйти с приложения"
+            android:id="@+id/startTest" android:singleLine="false"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="20dp"/>
+</LinearLayout>
+
