@@ -38,7 +38,7 @@ public class QuestionsLayout extends Activity{
 
     void showInViewQuestion(MainTest test){
         int k=i+1;
-        TVNumber.setText("Вопрос "+k);
+        TVNumber.setText(k+" вопрос c "+test.someQuestion.length);
         TVQuestion.setText(test.someQuestion[i]);
         A.setText(test.variantA[i]);
         B.setText(test.variantB[i]);
